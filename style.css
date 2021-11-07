@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+body {
+    font-family: 'Space Mono', monospace;
+    background-color: hsl(185, 41%, 84%);
+
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.logo-image {
+    max-width: 150px;
+    margin: 120px 0 60px;
+
+}
+
+.container-app {
+    min-width: 650px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    max-height: 450px;
+    margin-bottom: 120px;
+    min-width: 750px;
+    border-radius: 5px;
+    ;
+}
+
+.tip {
+    width: 80px;
+    height: 35px;
+
+}
+
+input {
+    width: 220px;
+    height: 40px;
+    text-align: end;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+input:focus {
+
+    border-radius: 5px;
+    outline: 2px solid hsl(169, 47%, 47%);
+
+
+}
+
+.ip-s-1 {
+    background-color: hsl(189, 41%, 97%);
+    border: none;
+    width: 90%;
+}
+
+
+.app-section-2 {
+
+    background-color: hsl(183, 100%, 15%);
+    margin: 30px;
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+}
+
+.app-section-2,
+.app-section-1 {
+    padding: 40px 20px;
+    width: 50%;
+}
+
+button:hover,
+.app-section-1 input:hover {
+    cursor: pointer;
+}
+
+.percentage-button {
+    background-color: hsl(183, 100%, 15%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    border-radius: 5px;
+}
+
+.percentage-button:hover,
+.percentage-button:active {
+    background-color: hsl(171, 74%, 47%);
+    color: hsl(183, 100%, 15%);
+
+}
+
+.custom-value {
+    width: 75px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.no-of-people {
+    background-image: url("./images/icon-person.svg");
+    background-repeat: no-repeat;
+
+}
+
+.bill-value {
+    background-image: url("./images/icon-dollar.svg");
+    background-repeat: no-repeat;
+}
+
+.no-of-people,
+.bill-value {
+    background-position-y: center;
+    background-position-x: 10px;
+}
+
+.app-section-1 p {
+    margin-bottom: 5px;
+}
+
+.app-section-1 {
+    min-width: 350px;
+}
+
+.app-section-2 input {
+    background-color: hsl(183, 100%, 15%);
+    border: none;
+    color: hsl(171, 74%, 47%);
+    font-size: 30px;
+    width: 60%
+}
+
+
+
+.a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.r {
+    width: 100%;
+}
+
+.reset-button {
+    display: block;
+    width: 95%;
+    height: 40px;
+    margin-top: 30%;
+    background-color: hsl(171, 74%, 47%);
+    ;
+    border: none;
+    border-radius: 5px;
+    color: hsl(183, 100%, 15%);
+    text-transform: uppercase;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Frontend Mentor | Tip calculator app</title>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="logo"></div>
+    <img class="logo-image" src="./images/logo.svg">
+    <div class="container-app">
+      <div class="app-section-1">
+        <div class="bill-amount">
+          <p>Bill</p>
+          <input type="text" class="bill-value ip-s-1" placeholder="0">
+        </div>
+        <div class="tip-selector">
+          <p>Select Tip %</p>
+          <button class="percentage-button tip">5%</button>
+          <button class="percentage-button tip">10%</button>
+          <button class="percentage-button tip">15%</button>
+          <button class="percentage-button tip">25%</button>
+          <button class="percentage-button tip"> 50%</button>
+          <input type="number" class="custom-value tip ip-s-1" placeholder="Custom">
+        </div>
+        <div class="number-of-people">
+          <p>Number of People</p>
+          <input class="no-of-people ip-s-1" type="number" placeholder="0">
+        </div>
+      </div>
+      <div class="app-section-2">
+        <div class="a t">
+          <p><strong> Tip Amount</strong>
+            / person</p>
+          <input class="tip-per-person-value display" type="text" value="$0.00" disabled="disabled">
+        </div>
+        <div class="a p">
+          <p><strong>Total</strong>
+            / person</p>
+          <input class="total-per-person-value display" type="text" value="$0.00" disabled="disabled">
+        </div>
+        <div class="a r">
+          <button class="reset-button">Reset</button>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Thilip Dhanavel</a>.
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
